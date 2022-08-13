@@ -1,0 +1,18 @@
+spring:
+  main:
+    banner-mode: off
+  shell:
+    command:
+      completion:
+        enabled: true
+    interactive:
+      enabled: false
+    noninteractive:
+      enabled: true
+  output:
+    ansi:
+      enabled: always
+
+logging:
+  level:
+    root: off
