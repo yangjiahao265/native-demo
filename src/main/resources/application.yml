@@ -1,3 +1,5 @@
 spring:
   profiles:
-    active: @spring.profiles.active@
+    active: @profiles.active@
+  main:
+    web-application-type: none

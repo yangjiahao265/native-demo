@@ -1,0 +1,1 @@
+./mvnw.cmd clean package -P native-compile -D'profiles.active=native'
